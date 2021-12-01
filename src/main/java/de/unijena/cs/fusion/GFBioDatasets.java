@@ -65,7 +65,7 @@ public class GFBioDatasets {
 		
 		//counterMax = maximum request (e.g., 10,100,1000), see getScrollId.json for setting the size per request
 		int counterMax = Integer.valueOf(properties.getProperty("counterMax")); // 10 requests and 1000 datasets per request (see getScrollId.json) =  10000 files
-		int counter = Integer.valueOf(properties.getProperty("counter"));
+		int counter = 1;
 		
 		//Read parameter 1 from file
 		Gson gson = new Gson();
